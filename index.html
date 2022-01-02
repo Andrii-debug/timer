@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="heder__title">Timer</h1>
+    </header>
+
+    <div class="timer">
+
+
+        <div class="timer__block">
+            <div id="days" class="time days">00</div>
+            <div class="timer__title">Days</div>
+        </div>
+        <div class="dots">:</div>
+
+      
+            <div class="timer__block">
+                <div id="hour" class="time hour">00</div>
+                <div class="timer__title">Hour</div>
+            </div>
+            <div class="dots">:</div>
+            <div class="timer__block">
+                <div id="minutes" class="time minutes">00</div>
+                <div class="timer__title">Minutes</div>
+            </div>
+            <div class="dots">:</div>
+            <div class="timer__block">
+                <div id="seconds" class="time seconds">00</div>
+                <div class="timer__title">Seconds</div>
+            </div>
+
+            <div class="buttons">   
+               
+                <div class="inp">
+                    <input class="inp__settime"  type="datetime-local" name="date">
+                    <button class="btn-start">Start</button>
+                    <button class="btn-stop">Stop</button>
+                    <button class="btn-pause">Pause</button>
+                </div>
+            </div>
+
+                <audio class="audio" src="./audio/melodiya_na_sms_soobshhenie_htc.mp3"></audio>
+    </div>
+    
+        <script src="index.js"></script>
+</body>
+
+</html>
